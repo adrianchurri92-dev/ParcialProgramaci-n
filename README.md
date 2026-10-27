@@ -14,30 +14,4 @@ Trabajar en pareja con ramas, commits por integrante y merge requests aprobados.
 
 # Diagrama de UML
 
-classDiagram
-    class Main {
-        +simularBatalla(Criatura criatura1, Criatura criatura2)
-    }
-    class Criatura {
-        <<abstract>>
-        -String nombre
-        -int salud
-        -int fuerza
-        +atacar(Criatura objetivo)
-        +defender(int daño)
-        +estaViva() boolean
-    }
-    class Dragon {
-        -String escamas
-    }
-    class Mago {
-        -String hechizos
-    }
-    class Guerrero {
-        -String arma
-    }
-
-    Main --> Criatura : Utiliza
-    Criatura <|-- Dragon
-    Criatura <|-- Mago
-    Criatura <|-- Guerrero
+<img width="502" height="575" alt="image" src="https://github.com/user-attachments/assets/61b3f381-0c88-482f-b3f8-f223c45ea6d6" />
